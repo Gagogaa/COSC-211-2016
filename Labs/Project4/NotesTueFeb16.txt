@@ -1,0 +1,37 @@
+File IO
+
+Files types
+--------------------------------------------------------
+1) Text Files
+2) NON-Text Files(ie binary format)
+Text                        | Binary
+----------------------------|---------------------------
+data is stored in           | Data is stored in NON-Text
+Text Format (mostly ascii)  | machine format
+(java uses unicode)         |
+                            |
+Slow file io                | fast file io
+                            |
+Files can be created by a   |
+Test editor/ program        | must be made by a program
+                            |
+can be opened in an editor  | Must be opened by a program
+                            |
+Portable                    | Usually non-portable
+                            | (Java files are across java
+                            | platforms)
+--------------------------------------------------------
+Files in Java
+Java Program ------> External File
+1) create a file object
+   (Called a stream)
+2) Establish an association
+3) close the file when your
+   done so if the program
+   crashes your file will
+   still be there.
+--------------------------------------------------------
+Useful things
+import java.io.*
+Class PrintWriter (a lot like System.print but with file
+io) 

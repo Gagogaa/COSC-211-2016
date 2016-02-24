@@ -1,0 +1,4 @@
+keyboard is already defined
+can use keyboard.useDalimiter("\\&|:")
+this adds whitespace and ':' as a delimiter
+so now you can use two next ints for hours and mins 
